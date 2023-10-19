@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 3.0rem;
+}
+
+.links {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.github-link {
+  text-decoration: none;
+}
+
+.devicon {
+  color: #777;
+  font-size: 3.6rem;
+}
+
+.gmail-btn {
+  all: unset;
+  cursor: pointer;
+}
+
+.gmail-btn svg {
+  fill: #777;
+  width: 3.8rem;
+  height: 3.8rem;
+}
