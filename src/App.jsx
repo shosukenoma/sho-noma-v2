@@ -24,7 +24,7 @@ function App() {
               <h2>Sho Noma &#8212; Software Developer</h2>
               <span>
                 <p>I'm a software developer specializing in building accessible websites.
-                  <br/>I have experience building applications in Python and React.js.</p>
+                  <br/>I have experience building applications in Python, Go and React.js.</p>
                 <p>My interest lies in solving complex problems with logic
                   <br/> and designing applications with a focus on user accessibility.</p>
                 <p>Check out my projects from list on your right!</p>
@@ -49,17 +49,26 @@ function App() {
             <div className="project-list">
               <ul>
                 <li>
-                  <a rel="noopener" className="project-link" onClick={display==1 ? () => setDisplay(0) : () => setDisplay(1)}>
+                  {/* <a rel="noopener" className="project-link" onClick={display==1 ? () => setDisplay(0) : () => setDisplay(1)}>
+                    <RepoCard repoName="stock-price-scraper" displayColor="orange" />
+                  </a> */}
+                  <a href="https://github.com/shosukenoma/stock-price-scraper" className="project-link" target="_blank">
                     <RepoCard repoName="stock-price-scraper" displayColor="orange" />
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener" className="project-link" onClick={display==2 ? () => setDisplay(0) : () => setDisplay(2)}>
+                  {/* <a rel="noopener" className="project-link" onClick={display==2 ? () => setDisplay(0) : () => setDisplay(2)}>
+                    <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
+                  </a> */}
+                  <a href="https://shosukenoma.github.io/slack-note-v2/" className="project-link" target="_blank">
                     <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener" className="project-link" onClick={display==3 ? () => setDisplay(0) : () => setDisplay(3)}>
+                  {/* <a rel="noopener" className="project-link" onClick={display==3 ? () => setDisplay(0) : () => setDisplay(3)}>
+                    <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
+                  </a> */}
+                  <a href="https://github.com/shosukenoma/sho-noma-v1/" className="project-link" target="_blank">
                     <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
                   </a>
                 </li>
