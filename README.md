@@ -1,18 +1,8 @@
-# Sho Noma's Portfolio Website
+# React + Vite
 
-## Overview
-This portfolio website project includes the following features:
-- Displays cards of github repositories using GitHub's REST API.
-- Keeps count and displays the number of visits to the website.
-- Toggles between light mode and dark mode based on visitor's timezone.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Acknowledgements
-Here are some beautiful websites that inspired the design of this website:
-- https://www.seanhalpin.xyz/  
-- https://www.thecraftsmen.tech/  
-- https://itssharl.ee/  
-- https://dunks1980.com/  
-- https://www.codemoore.com/ 
-- https://brittanychiang.com/
+Currently, two official plugins are available:
 
-https://www.geeksforgeeks.org/how-to-copy-text-to-the-clipboard-in-react-js/#
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
