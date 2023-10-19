@@ -1,5 +1,8 @@
 # Sho Noma's Portfolio Website
 
+Note: You can find older contributions to this repository [here](https://github.com/shosukenoma/my-portfolio). 
+I had to migrate everything to this repository due to an error in the website deployment. 
+
 ## Overview
 This portfolio website project includes the following features:
 - Displays cards of github repositories using GitHub's REST API.
