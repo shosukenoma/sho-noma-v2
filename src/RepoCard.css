@@ -1,6 +1,6 @@
 .repo-card {
   display: flex;
-  margin-bottom: 1.8rem;
+  margin: 1.8rem 0;
 }
 
 .repo-card-colorbar {

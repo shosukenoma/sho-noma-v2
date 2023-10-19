@@ -26,8 +26,8 @@ function App() {
                 <p>I'm a software developer specializing in building accessible websites.
                   <br/>I have experience building applications in Python and React.js.</p>
                 <p>My interest lies in solving complex problems with logic
-                  <br/> and designing applications while thinking about user accessibility.</p>
-                <p>Check out my projects from the scrollable list on your right!</p>
+                  <br/> and designing applications with a focus on user accessibility.</p>
+                <p>Check out my projects from list on your right!</p>
               </span>
             </div>
             {/* Repo 1 */}

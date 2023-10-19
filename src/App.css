@@ -53,11 +53,11 @@
 .projects-display {
   /* padding-left: 12.0rem; */
   align-self: center;
-  width: 70%;
+  width: 60%;
   height: 100%;
 
   display: flex;
-  align-items: top;
+  align-items: top; /* Here */
 }
 
 .repo-red {
@@ -97,12 +97,12 @@
 
 .projects-sidebar {
   align-self: center;
-  width: 25%;
+  width: 35%;
   height: 100%;
   /* padding: 3.0rem; */
 
   display: flex;
-  align-items: top;
+  align-items: top; /* Here */
 }
 
 .filter-bar {
@@ -115,6 +115,7 @@
 
 .project-list {
   height: auto;
+  padding-right: 4.8rem;
   /* overflow: scroll; */
 }
 
