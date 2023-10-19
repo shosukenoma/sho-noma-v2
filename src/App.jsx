@@ -5,7 +5,7 @@ import { React, useState } from 'react'
 
 function App() {
 
-  const [display, setDisplay] = useState(3);
+  const [display, setDisplay] = useState(0);
   
   function handleLogoClick() {
     setDisplay(0);
@@ -54,12 +54,12 @@ function App() {
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener" className="project-link" onClick={() => setDisplay(2)}>
+                  <a rel="noopener" className="project-link" onClick={display==2 ? () => setDisplay(0) : () => setDisplay(2)}>
                     <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener" className="project-link" onClick={() => setDisplay(3)}>
+                  <a rel="noopener" className="project-link" onClick={display==3 ? () => setDisplay(0) : () => setDisplay(3)}>
                     <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
                   </a>
                 </li>
