@@ -27,7 +27,7 @@ function App() {
                   <br/>I have experience building applications in Python, Go and React.js.</p>
                 <p>My interest lies in solving complex problems with logic
                   <br/> and designing applications with a focus on user accessibility.</p>
-                <p>Check out my projects from list on your right!</p>
+                <p>Check out my projects from the list on your right!</p>
               </span>
             </div>
             {/* Repo 1 */}
