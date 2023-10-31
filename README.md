@@ -7,6 +7,13 @@ I had to migrate everything to this repository due to an error in the deployment
 This portfolio website project includes the following features:
 - Displays cards of github repositories using GitHub's REST API.
 
+## TODO
+Upcoming updates:
+- Display basic info on each project when clicked, before opening the project website.
+- Implement responsive design
+- Add animation on click-able links.
+
+
 ## Acknowledgements
 Here are some beautiful websites that inspired the design of this website:
 - https://www.seanhalpin.xyz/  
