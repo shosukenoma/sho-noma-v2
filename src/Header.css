@@ -28,6 +28,13 @@
 .devicon {
   color: #777;
   font-size: 3.6rem;
+
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.devicon:hover {
+  color: #ccc;
 }
 
 .gmail-btn {
@@ -39,4 +46,8 @@
   fill: #777;
   width: 3.8rem;
   height: 3.8rem;
+}
+
+.gmail-btn svg:hover {
+  fill: #ccc;
 }
