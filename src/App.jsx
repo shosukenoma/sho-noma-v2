@@ -22,11 +22,11 @@ function App() {
             <div className={`overview ${display==0 ? "" : "hidden"}`}>
               <span className="pre-heading">Hi there! I am...</span>
               <h2>Sho Noma &#8212; Software Developer</h2>
-              <span>
-                <p>I'm a software developer specializing in building accessible websites.
-                  <br/>I have experience building applications in Python, Go and React.js.</p>
+              <span className="intro-text">
+                <p>I&apos;m a software developer specializing in building accessible websites.
+                  I have experience building applications in Python, Go and React.js.</p>
                 <p>My interest lies in solving complex problems with logic
-                  <br/> and designing applications with a focus on user accessibility.</p>
+                   and designing applications with a focus on user accessibility.</p>
               </span>
             </div>
             {/* Repo 1 */}
