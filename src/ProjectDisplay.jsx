@@ -6,7 +6,7 @@ function ProjectDisplay({ display }) {
       {/* Overview */}
       <div className={`overview ${display==0 ? "" : "hidden"}`}>
         <span className="pre-heading">Hi there! I am...</span>
-        <h2>Sho Noma &#8212; Software Developer</h2>
+        <h2>Sho Noma <br className='heading-line-break'/> &#8212; Software Developer</h2>
         <span className="intro-text">
           <p>I&apos;m a software developer specializing in building accessible websites.
             I have experience building applications in Python, Go and React.js.</p>

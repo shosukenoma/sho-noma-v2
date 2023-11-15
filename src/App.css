@@ -70,6 +70,10 @@
   text-wrap: balance;
 }
 
+.heading-line-break {
+  display: none;
+}
+
 .repo-red {
   width: 100%;
   height: 25.0rem;
@@ -182,6 +186,12 @@ footer p {
   .projects-display {
     width: 100%;
   }
+
+  .heading-line-break {
+    display: inline;
+  }
+
+  
 
   .projects-sidebar {
     width: 100%;
