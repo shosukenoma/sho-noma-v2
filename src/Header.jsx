@@ -25,7 +25,7 @@ function Header( {handleLogoClick} ) {
           </a>
         </li>
         <li className="gmail">
-          <GmailClipBoard />
+          {/* <GmailClipBoard /> */}
         </li>
       </ul>
     </header>
