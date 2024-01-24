@@ -37,7 +37,7 @@ function App() {
                     {/* <a rel="noopener" className="project-link" onClick={display==1 ? () => setDisplay(0) : () => setDisplay(1)}>
                       <RepoCard repoName="stock-price-scraper" displayColor="orange" />
                     </a> */}
-                    <a href="https://github.com/shosukenoma/stock-price-scraper" className="project-link" target="_blank" rel='noreferrer'>
+                    <a href="https://github.com/shosukenoma/stock-price-scraper" className="project-link" target="_blank">
                       <RepoCard repoName="stock-price-scraper" displayColor="orange" />
                     </a>
                   </li>
@@ -45,7 +45,7 @@ function App() {
                     {/* <a rel="noopener" className="project-link" onClick={display==2 ? () => setDisplay(0) : () => setDisplay(2)}>
                       <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
                     </a> */}
-                    <a href="https://shosukenoma.github.io/slack-note-v2/" className="project-link" target="_blank" rel='noreferrer'>
+                    <a href="https://shosukenoma.github.io/slack-note-v2/" className="project-link" target="_blank">
                       <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
                     </a>
                   </li>
@@ -53,7 +53,7 @@ function App() {
                     {/* <a rel="noopener" className="project-link" onClick={display==3 ? () => setDisplay(0) : () => setDisplay(3)}>
                       <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
                     </a> */}
-                    <a href="https://github.com/shosukenoma/sho-noma-v1/" className="project-link" target="_blank" rel='noreferrer'>
+                    <a href="https://github.com/shosukenoma/sho-noma-v1/" className="project-link" target="_blank">
                       <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
                     </a>
                   </li>
