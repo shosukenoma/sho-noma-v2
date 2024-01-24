@@ -89,7 +89,7 @@ function App() {
             </div>
           </main>
           <footer className="debug-border">
-            <p>Copyright © 2023 Sho Noma</p>
+            <p>Copyright © 2024 Sho Noma</p>
           </footer>
         </div>
       </div>
