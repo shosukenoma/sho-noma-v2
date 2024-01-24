@@ -25,13 +25,13 @@ function App() {
       customHeading: "Slack Note",
       description: "A minimalistic note taking app built using React.js, inspired by Slack’s self-DM feature.",
       language: "JavaScript",
-      updatedAt: "2024-10-04"
+      updatedAt: "2023-10-04"
     },
     {
       repoName: "sho-noma-v1",
       customHeading: "Portfolio Website",
       description: "My portfolio website built using React.js, with a theme inspired by Paul Smith's signature stripe.",
-      language: "HTML, CSS, React.js",
+      language: "JavaScript",
       updatedAt: "2024-01-24"
     },
   ]
