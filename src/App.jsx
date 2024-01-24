@@ -12,6 +12,30 @@ function App() {
     setDisplay(0);
   }
 
+  const defaultRepoInfos = [
+    {
+      repoName: "stock-price-scraper",
+      customHeading: null,
+      description: "A stock market web scraper that outputs stock price data to a csv file. Built using Go and Colly.",
+      language: "Go",
+      updatedAt: "2023-09-27",
+    },
+    {
+      repoName: "slack-note-v2",
+      customHeading: "Slack Note",
+      description: "A minimalistic note taking app built using React.js, inspired by Slack’s self-DM feature.",
+      language: "JavaScript",
+      updatedAt: "2024-10-04"
+    },
+    {
+      repoName: "sho-noma-v1",
+      customHeading: "Portfolio Website",
+      description: "My portfolio website built using React.js, with a theme inspired by Paul Smith's signature stripe.",
+      language: "HTML, CSS, React.js",
+      updatedAt: "2024-01-24"
+    },
+  ]
+
   return (
     <div className="wrapper">
       <div className="loading-container">
@@ -38,7 +62,7 @@ function App() {
                       <RepoCard repoName="stock-price-scraper" displayColor="orange" />
                     </a> */}
                     <a href="https://github.com/shosukenoma/stock-price-scraper" className="project-link" target="_blank">
-                      <RepoCard repoName="stock-price-scraper" displayColor="orange" />
+                      <RepoCard displayColor="orange" repoName={`${defaultRepoInfos[0].repoName}`} description={`${defaultRepoInfos[0].description}`} language={`${defaultRepoInfos[0].language}`} updatedAt={`${defaultRepoInfos[0].updatedAt}`}/>
                     </a>
                   </li>
                   <li>
@@ -46,7 +70,7 @@ function App() {
                       <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
                     </a> */}
                     <a href="https://shosukenoma.github.io/slack-note-v2/" className="project-link" target="_blank">
-                      <RepoCard repoName="slack-note-v2" customHeading="Slack Note" displayColor="pink" />
+                      <RepoCard displayColor="pink" repoName={`${defaultRepoInfos[1].repoName}`} customHeading={`${defaultRepoInfos[1].customHeading}`} description={`${defaultRepoInfos[1].description}`} language={`${defaultRepoInfos[1].language}`} updatedAt={`${defaultRepoInfos[1].updatedAt}`}/>
                     </a>
                   </li>
                   <li>
@@ -54,7 +78,7 @@ function App() {
                       <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
                     </a> */}
                     <a href="https://github.com/shosukenoma/sho-noma-v1/" className="project-link" target="_blank">
-                      <RepoCard repoName="sho-noma-v1" customHeading="Portfolio Website" displayColor="light-green" />
+                      <RepoCard displayColor="light-green" repoName={`${defaultRepoInfos[2].repoName}`} customHeading={`${defaultRepoInfos[2].customHeading}`} description={`${defaultRepoInfos[2].description}`} language={`${defaultRepoInfos[2].language}`} updatedAt={`${defaultRepoInfos[2].updatedAt}`}/>
                     </a>
                   </li>
                   {/* <li>

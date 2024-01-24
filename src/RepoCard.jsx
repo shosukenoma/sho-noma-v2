@@ -3,7 +3,8 @@ import convertRepoName from './convertRepoName'
 import fetchRepoByName from './fetchRepoByName'
 import './RepoCard.css'
 
-function RepoCard({ repoName, customHeading, displayColor}) {
+// eslint-disable-next-line react/prop-types
+function RepoCard({ repoName, customHeading, displayColor, description, language, updatedAt}) {
 
   const [repo, setRepo] = useState({})
 
@@ -20,11 +21,11 @@ function RepoCard({ repoName, customHeading, displayColor}) {
           <h3>{customHeading ? customHeading : convertRepoName(repoName)}</h3>
         </div>
         <div className="flex-2">
-          <p>{repo.description}</p>
+          <p>{repo? repo.description : description}</p>
         </div>
         <div className="flex-3">
-          <p>{repo.language}</p>
-          <p>{repo.updated_at?.substring(0, 10)}</p>
+          <p>{repo ? repo.language : language}</p>
+          <p>{repo ? repo.updated_at?.substring(0, 10) : updatedAt}</p>
         </div>
       </div>
     </div>

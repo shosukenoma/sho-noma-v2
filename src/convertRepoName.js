@@ -16,7 +16,7 @@ function convertRepoName(repoName) {
     }
   }
   const result = charList.join('')
-  console.log("Repo name is ", result)
+  // console.log("Repo name is ", result)
   return charList
 }
 export default convertRepoName
